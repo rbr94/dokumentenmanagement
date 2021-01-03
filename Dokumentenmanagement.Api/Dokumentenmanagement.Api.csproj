@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dokumentenmanagement.Api.Model\Dokumentenmanagement.Api.Model.csproj" />
+    <ProjectReference Include="..\Dokumentenmanagement.Repository\Dokumentenmanagement.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>
